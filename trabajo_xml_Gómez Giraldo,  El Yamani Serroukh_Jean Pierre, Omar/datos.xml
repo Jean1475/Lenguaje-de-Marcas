@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<habitaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="esquema.xsd">
+
+    <habitacion id="1">
+        <nombre_huesped>Jean Pierre Gómez Giraldo</nombre_huesped>
+        <edad>25</edad>
+        <dni>53890909D</dni>
+    </habitacion>
+
+    <habitacion id="2">
+        <nombre_huesped>Laura Martínez Ríos</nombre_huesped>
+        <edad>32</edad>
+        <dni>72451638K</dni>
+    </habitacion>
+
+    <habitacion id="3">
+        <nombre_huesped>Carlos Andrés Pineda López</nombre_huesped>
+        <edad>41</edad>
+        <dni>18943752M</dni>
+    </habitacion>
+
+    <habitacion id="4">
+        <nombre_huesped>Sofía Elena Navarro Torres</nombre_huesped>
+        <edad>28</edad>
+        <dni>90628471R</dni>
+    </habitacion>
+
+</habitaciones>

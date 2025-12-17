@@ -1,0 +1,8 @@
+<!ELEMENT habitaciones (habitacion+)>
+<!ELEMENT habitacion (nombre_huesped, edad, dni)>
+
+<!ATTLIST habitacion id CDATA #REQUIRED>
+
+<!ELEMENT nombre_huesped (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
