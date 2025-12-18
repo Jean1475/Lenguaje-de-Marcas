@@ -1,8 +1,21 @@
 <!ELEMENT habitaciones (habitacion+)>
-<!ELEMENT habitacion (nombre_huesped, edad, dni)>
+
+<!ELEMENT habitacion (
+    nombre_huesped,
+    apellidos_huesped?,
+    edad,
+    fecha_entrada?,
+    fecha_salida?,
+    dni,
+    nacionalidad?
+)>
 
 <!ATTLIST habitacion id CDATA #REQUIRED>
 
 <!ELEMENT nombre_huesped (#PCDATA)>
+<!ELEMENT apellidos_huesped (#PCDATA)>
 <!ELEMENT edad (#PCDATA)>
+<!ELEMENT fecha_entrada (#PCDATA)>
+<!ELEMENT fecha_salida (#PCDATA)>
 <!ELEMENT dni (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>

@@ -1,30 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <habitaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-            xsi:noNamespaceSchemaLocation="esquema.xsd">
+              xsi:noNamespaceSchemaLocation="esquema.xsd">
 
     <habitacion id="1">
-        <nombre_huesped>Jean Pierre Gómez Giraldo</nombre_huesped>
+        <nombre_huesped>Jean Pierre</nombre_huesped>
+        <apellidos_huesped>Gómez Giraldo</apellidos_huesped>
         <edad>25</edad>
+        <fecha_entrada>2025-03-10</fecha_entrada>
+        <fecha_salida>2025-03-15</fecha_salida>
         <dni>53890909D</dni>
+        <nacionalidad>Colombiana</nacionalidad>
     </habitacion>
 
     <habitacion id="2">
-        <nombre_huesped>Laura Martínez Ríos</nombre_huesped>
+        <nombre_huesped>Laura</nombre_huesped>
+        <apellidos_huesped>Martínez Ríos</apellidos_huesped>
         <edad>32</edad>
+        <fecha_entrada>2025-03-12</fecha_entrada>
+        <fecha_salida>2025-03-18</fecha_salida>
         <dni>72451638K</dni>
+        <nacionalidad>Española</nacionalidad>
     </habitacion>
 
     <habitacion id="3">
-        <nombre_huesped>Carlos Andrés Pineda López</nombre_huesped>
+        <nombre_huesped>Carlos Andrés</nombre_huesped>
+        <apellidos_huesped>Pineda López</apellidos_huesped>
         <edad>41</edad>
+        <fecha_entrada>2025-03-08</fecha_entrada>
+        <fecha_salida>2025-03-14</fecha_salida>
         <dni>18943752M</dni>
+        <nacionalidad>Mexicana</nacionalidad>
     </habitacion>
 
     <habitacion id="4">
-        <nombre_huesped>Sofía Elena Navarro Torres</nombre_huesped>
+        <nombre_huesped>Sofía Elena</nombre_huesped>
+        <apellidos_huesped>Navarro Torres</apellidos_huesped>
         <edad>28</edad>
+        <fecha_entrada>2025-03-20</fecha_entrada>
+        <fecha_salida>2025-03-25</fecha_salida>
         <dni>90628471R</dni>
+        <nacionalidad>Argentina</nacionalidad>
     </habitacion>
 
 </habitaciones>
