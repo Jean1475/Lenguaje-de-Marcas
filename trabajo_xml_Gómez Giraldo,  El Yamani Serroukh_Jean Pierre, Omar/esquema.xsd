@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="EdadType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="0"/>
+      <xs:maxInclusive value="120"/>
+    </xs:restriction>
+  </xs:simpleType>
 
+  <xs:simpleType name="DniType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{8}[A-Za-z]"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="IdHabitacionType">
+    <xs:restriction base="xs:positiveInteger"/>
+  </xs:simpleType>
+  
   <xs:element name="habitaciones">
     <xs:complexType>
       <xs:sequence>
@@ -8,19 +24,16 @@
         <xs:element name="habitacion" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-
               <xs:element name="nombre_huesped" type="xs:string"/>
-              <xs:element name="apellidos_huesped" type="xs:string" minOccurs="0"/>
-              <xs:element name="edad" type="xs:integer"/>
-              <xs:element name="fecha_entrada" type="xs:date" minOccurs="0"/>
-              <xs:element name="fecha_salida" type="xs:date" minOccurs="0"/>
-              <xs:element name="dni" type="xs:string"/>
-              <xs:element name="nacionalidad" type="xs:string" minOccurs="0"/>
-
+              <xs:element name="apellidos_huesped" type="xs:string"/>
+              <xs:element name="edad" type="EdadType"/>
+              <xs:element name="fecha_entrada" type="xs:date"/>
+              <xs:element name="fecha_salida" type="xs:date"/>
+              <xs:element name="dni" type="DniType"/>
+              <xs:element name="nacionalidad" type="xs:string"/>
             </xs:sequence>
 
-            <xs:attribute name="id" type="xs:integer" use="required"/>
-
+            <xs:attribute name="id" type="IdHabitacionType" use="required"/>
           </xs:complexType>
         </xs:element>
 

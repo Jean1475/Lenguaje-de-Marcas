@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <habitaciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:noNamespaceSchemaLocation="esquema.xsd">
+            xsi:noNamespaceSchemaLocation="esquema.xsd">
 
     <habitacion id="1">
         <nombre_huesped>Jean Pierre</nombre_huesped>
